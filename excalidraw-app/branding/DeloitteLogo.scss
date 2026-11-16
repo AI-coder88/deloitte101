@@ -1,0 +1,21 @@
+.brand-lockup {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.brand-lockup__logo {
+  height: 2.25rem;
+  width: auto;
+  color: #000;
+
+  .theme--dark & {
+    color: #fff;
+  }
+}
+
+.brand-lockup__product {
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--color-deloitte-green);
+}

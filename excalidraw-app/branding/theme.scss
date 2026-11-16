@@ -1,0 +1,38 @@
+// `:root` raises specificity above the editor's own `.excalidraw` defaults.
+// Scoping to `.excalidraw-app` instead would miss dialogs and popovers, which
+// are portaled to <body>.
+:root .excalidraw {
+  --color-deloitte-green: #86bc25;
+
+  --color-primary: #26890d;
+  --color-primary-darker: #227b0c;
+  --color-primary-darkest: #1e6e0a;
+  --color-primary-hover: #237f0c;
+  --color-primary-light: #e9f3d8;
+  --color-primary-light-darker: #dfeec6;
+  --color-primary-contrast-offset: #227b0c;
+  --color-selection: #26890d;
+  --color-brand-hover: #237f0c;
+  --color-brand-active: #1e6e0a;
+  --color-surface-high: #eef5e6;
+  --color-surface-primary-container: #ddedc6;
+  --color-on-primary-container: #0f3d05;
+  --color-slider-track: #d4eab0;
+
+  &.theme--dark {
+    --color-primary: #86bc25;
+    --color-primary-darker: #95c83a;
+    --color-primary-darkest: #a3d150;
+    --color-primary-hover: #9ccb47;
+    --color-primary-light: #3e4d27;
+    --color-primary-light-darker: #34411f;
+    --color-primary-contrast-offset: #95c83a;
+    --color-selection: #86bc25;
+    --color-brand-hover: #9ccb47;
+    --color-brand-active: #b0d86a;
+    --color-surface-high: #2e3329;
+    --color-surface-primary-container: #3e5121;
+    --color-on-primary-container: #e2f0cb;
+    --color-slider-track: #4b5e2c;
+  }
+}
