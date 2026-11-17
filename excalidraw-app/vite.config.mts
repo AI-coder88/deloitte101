@@ -433,7 +433,7 @@ export default defineConfig(({ mode }) => {
           id: "deloitte-draw",
           display: "standalone",
           theme_color: BRAND.themeColor,
-          background_color: "#ffffff",
+          background_color: BRAND.backgroundColor,
           file_handlers: [
             {
               action: "/",

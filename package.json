@@ -50,6 +50,7 @@
   "homepage": ".",
   "prettier": "@excalidraw/prettier-config",
   "scripts": {
+    "brand:assets": "node ./scripts/generate-deloitte-brand-assets.mjs",
     "build-node": "node ./scripts/build-node.js",
     "build:app:docker": "yarn --cwd ./excalidraw-app build:app:docker",
     "build:app": "yarn --cwd ./excalidraw-app build:app",
